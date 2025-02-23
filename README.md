@@ -11,7 +11,7 @@ BS811X I2C library see [this](https://github.com/snowhalationmkii/BS811X_I2C).
 Above shows the most common touch key modules you can buy online.\
 Although the 16 key touch module uses the chip TTP229-BSF.\
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8SFdZ7XYakpJYZ0DIo6zCdG3NSy0KVcBx9fMxYE-vLO2ogqLw4mcOgKhcJdRKeygjLlk&usqp=CAU">\
-As we can see from the pin definition. TTP229-BSF uses a serial clock port at PIN `12/13`.
+As we can see from the pin definition. TTP229-BSF uses a serial clock port at PIN `12/13`.\
 Almost all TTP229 types have a `SDO/SCL` port, but it's not a I2C port. It works differently.\
 <img src="https://p.sda1.dev/22/5cfb0e0ddc70d1a310f52eeaadad3aab/bs81x.jpg">\
 As for BS81X series, they use a similar `data/clock` port to send touch status. In above picture, they are PIN `5/6` (for 814) or `15/16` (for 818) .
