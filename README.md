@@ -2,6 +2,7 @@
 
 An Arduino IDE based library used for TTP229 & BS81X series touch chips Serial Port (SDO/SCL) reading.\
 Compatible with Tontouch TTP229/Holtek BS818/BS814 touch key chips which use serial clock port to send touch key status.\
+This library can be used on Arduino IDE based board e.g, Arduino Uno/Mega/Leonardo/ESP8266/ESP32/Pi Pico.\
 BS811X I2C library see [this](https://github.com/snowhalationmkii/BS811X_I2C).
 
 ## Instruction
