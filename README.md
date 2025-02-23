@@ -14,7 +14,8 @@ Although the 16 key touch module uses the chip TTP229-BSF.\
 As we can see from the pin definition. TTP229-BSF uses a serial clock port at PIN `12/13`.\
 Almost all TTP229 types have a `SDO/SCL` port, but it's not a I2C port. It works differently.\
 <img src="https://p.sda1.dev/22/5cfb0e0ddc70d1a310f52eeaadad3aab/bs81x.jpg">\
-As for BS81X series, they use a similar `data/clock` port to send touch status. In above picture, they are PIN `5/6` (for 814) or `15/16` (for 818) .
+As for BS81X series, they use a similar `data/clock` port to send touch status.\
+In above picture, they are PIN `5/6` (for 814) or `15/16` (for 818) .\
 Before use this library, you should connect chip serial clock port to Board default I2C port (See table below).
 <img src="https://docs.arduino.cc/static/5f90596512320d9577cfa9638fdb6115/a6d36/wiring.png">\
 Then you shall open the `examples\TTPBS_read.ino`, Upload it, Check serail port monitor
